@@ -36,6 +36,9 @@ export default function Home({navigation}) {
                     </View>
                 </View>
                 </ImageBackground>
+                <Text style={styles.text.text3} >
+                        My Tinerary
+                        </Text>
             </View>
             <View style={{ flex:2, backgroundColor: 'lightgrey', marginTop:10, }}>
                 <Slider/>
@@ -62,7 +65,6 @@ const styles = StyleSheet.create({
       },
     text: {
         text2: {
-            marginTop: -44,
           fontSize: 14,
           color: "white",
           lineHeight: 60,
@@ -78,5 +80,23 @@ const styles = StyleSheet.create({
         textAlign: "center",
         backgroundColor: "#000000c0",
         textTransform: "uppercase",
+        text3: {
+          marginTop:10,
+          fontSize: 24,
+          color: "white",
+          lineHeight: 60,
+          fontWeight: "bold",
+          textAlign: "center",
+          backgroundColor: "#000000c0",
+          textTransform: "uppercase",
+        },
+        color: "white",
+        fontSize: 22,
+        lineHeight: 60,
+        fontWeight: "bold",
+        textAlign: "center",
+        backgroundColor: "#000000c0",
+        textTransform: "uppercase",
       },
+      
   });
